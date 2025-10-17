@@ -1,2 +1,15 @@
-# CS171-Term-Project
-Term project for CS171 machine learning. Focused on data collection, creating an ML model, and analyzing results.
+# CS171 Term Project Read Me
+
+### Project Title Here
+**Authors:** Helena Thiessen and
+
+**Research Topic:**
+
+## Project Outline
+### Data Collection
+
+### Models
+
+### Timeline
+---
+Licensed under Apache 2.0 license
