@@ -20,11 +20,7 @@
 
 ---
 ## Description of Question and Research Topic
-Electronic and household waste are growing environmental challenges that require smarter sorting and recycling systems.  
-Our project explores how convolutional neural networks (CNNs) can classify different types of waste images to improve automated recycling efficiency.  
-Samriddhi focuses on identifying ten types of **electronic waste** (e.g., TV, battery, circuit board), while Helena focuses on **general recyclable waste** (e.g., plastic, glass, organic).  
-By comparing model performance and confusion matrices, we aim to determine how computer vision can support real-world waste management pipelines.  
-This work demonstrates the role of machine learning in promoting sustainability and reducing landfill impact.
+Electronic and household waste are growing environmental challenges that require smarter sorting and recycling systems. Our project explores how convolutional neural networks (CNNs) can classify different types of waste images to improve automated recycling efficiency. Samriddhi focuses on identifying ten types of **electronic waste** (e.g., TV, battery, circuit board), while Helena focuses on **general recyclable waste** (e.g., plastic, glass, organic). By comparing model performance and confusion matrices, we aim to determine how computer vision can support real-world waste management pipelines. This work demonstrates the role of machine learning in promoting sustainability and reducing landfill impact.
 
 ---
 ## Project Outline
