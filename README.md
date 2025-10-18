@@ -7,7 +7,16 @@
 
 ## Authors
 - **Samriddhi Matharu** — E-Waste Image Classification  
-- **Helena Thiessen)** — FILL IN 
+- **Helena Thiessen)** — FILL IN
+
+---
+
+## Data Sources
+- **E-Waste Image Dataset** — [Kaggle: E-Waste Image Dataset](https://www.kaggle.com/datasets/akshat103/e-waste-image-dataset/data)  
+  Used by *Samriddhi Matharu* for classifying 10 categories of electronic waste items.  
+
+- **Waste Classification Dataset** — [DATASET NAME] (link)  
+  Used by *Helena Thiessen* for ..
 
 ---
 ## Description of Question and Research Topic
