@@ -15,7 +15,7 @@
 - **E-Waste Image Dataset** — [Kaggle: E-Waste Image Dataset](https://www.kaggle.com/datasets/akshat103/e-waste-image-dataset/data)  
   Used by *Samriddhi Matharu* for classifying 10 categories of electronic waste items.  
 
-- **DATASET NAME** — [DATASET NAME] (link)  
+- **DATASET NAME** — [Name Your URL Here ] (link)  
   Used by *Helena Thiessen* for ..
 
 ---
