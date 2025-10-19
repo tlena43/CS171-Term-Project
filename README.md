@@ -7,7 +7,7 @@
 
 ## Authors
 - **Samriddhi Matharu** — E-Waste Image Classification  
-- **Helena Thiessen)** — FILL IN
+- **Helena Thiessen** — Recylcing Image Classification
 
 ---
 
@@ -15,8 +15,8 @@
 - **E-Waste Image Dataset** — [Kaggle: E-Waste Image Dataset](https://www.kaggle.com/datasets/akshat103/e-waste-image-dataset/data)  
   Used by *Samriddhi Matharu* for classifying 10 categories of electronic waste items.  
 
-- **DATASET NAME** — [Name Your URL Here ] (link)  
-  Used by *Helena Thiessen* for ..
+- **DATASET NAME** — [Kaggle: Waste Recycling Plant Dataset] (https://www.kaggle.com/datasets/parohod/warp-waste-recycling-plant-dataset/data)  
+  Used by *Helena Thiessen* for classifying between different types of recyclables.
 
 ---
 ## Description of Question and Research Topic
@@ -35,7 +35,13 @@ Electronic and household waste are growing environmental challenges that require
 - Apply light augmentation (flip, rotation) to increase variety and help prevent overfitting.
 
 ### Helena Thiessen
-FILL IN
+- **Dataset:** *Waste Recycling Plant Dataset* (~3000 labeled images across 17 classes).
+- Research datasets pertaining to recycling and select one of interest.
+- The sourced data is split into training and validation sets.
+- Some categories may need to be combined or removed to narrow down to the desired categories.
+- Data must be read into python and stored as tensors.
+- Labels must be read into python and properly processed.
+- Using pytorch data must then be normalized, and augmented to reduce overfitting.
 
 ---
 
@@ -48,11 +54,26 @@ FILL IN
 - Evaluate results using accuracy and loss curves, and visualize model predictions with a confusion matrix.
 
 ### Helena Thiessen
-FILL IN
+- Use a **Region Based Convolution Neural Network (R-CNN)** to the presence of recylcing items of given classes.
+- Research R-CNN's in pytorch
+- Iplement a custom backbone
+- Use custom backbone with pytorch FasterRCNN object
+- Finetune backbone with varying arrangements of pooling layers, convolutional layers, linear layers, and dropout layers
+- Finetune model by trying different activation functions and gradient descent algorithms
+- Train model and assess results on test data
 
 ---
 
 ### Project Timeline
+- Week 9: Introduce research topic and timeline
+- Week 10: Source and prepare data
+- Week 11: Data preprocessing
+- Week 12: Begin designing models
+- Week 13: Fine tune models
+- Week 14: Assess results
+- Week 15: Perform analysis and prepare presentation
+- Week 16: Present project
+- Week 17: Submit Project
 
 ---
 Licensed under Apache 2.0 license
