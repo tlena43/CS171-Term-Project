@@ -7,7 +7,7 @@
 
 ## Authors
 - **Samriddhi Matharu** — E-Waste Image Classification  
-- **Helena Thiessen** — Recylcing Image Classification
+- **Helena Thiessen** — Recycling Image Classification
 
 ---
 
@@ -15,7 +15,7 @@
 - **E-Waste Image Dataset** — [Kaggle: E-Waste Image Dataset](https://www.kaggle.com/datasets/akshat103/e-waste-image-dataset/data)  
   Used by *Samriddhi Matharu* for classifying 10 categories of electronic waste items.  
 
-- **DATASET NAME** — [Kaggle: Waste Recycling Plant Dataset] (https://www.kaggle.com/datasets/parohod/warp-waste-recycling-plant-dataset/data)  
+- **DATASET NAME** — [Kaggle: Waste Recycling Plant Dataset](https://www.kaggle.com/datasets/parohod/warp-waste-recycling-plant-dataset/data)  
   Used by *Helena Thiessen* for classifying between different types of recyclables.
 
 ---
@@ -54,7 +54,7 @@ Electronic and household waste are growing environmental challenges that require
 - Evaluate results using accuracy and loss curves, and visualize model predictions with a confusion matrix.
 
 ### Helena Thiessen
-- Use a **Region Based Convolution Neural Network (R-CNN)** to the presence of recylcing items of given classes.
+- Use a **Region Based Convolution Neural Network (R-CNN)** to detect the presence of recycling items of given classes.
 - Research R-CNN's in pytorch
 - Iplement a custom backbone
 - Use custom backbone with pytorch FasterRCNN object
