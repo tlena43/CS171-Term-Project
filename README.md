@@ -7,7 +7,7 @@
 
 ## Authors
 - **Samriddhi Matharu** — E-Waste Image Classification  
-- **Helena Thiessen** — Recycling Image Classification
+- **Helena Thiessen** — Recycling and Trash Image Classification
 
 ---
 
@@ -18,9 +18,12 @@
 - **DATASET NAME** — [Kaggle: Waste Recycling Plant Dataset](https://www.kaggle.com/datasets/parohod/warp-waste-recycling-plant-dataset/data)  
   Used by *Helena Thiessen* for classifying between different types of recyclables.
 
+- **DATASET NAME** — [Taco Dataset](http://tacodataset.org/)  
+  Used by *Helena Thiessen* for classifying between different types of trash and recyclables. 
+
 ---
 ## Description of Question and Research Topic
-Electronic and household waste are growing environmental challenges that require smarter sorting and recycling systems. Our project explores how convolutional neural networks (CNNs) can classify different types of waste images to improve automated recycling efficiency. Samriddhi focuses on identifying ten types of **electronic waste** (e.g., TV, battery, circuit board), while Helena focuses on **general recyclable waste** (e.g., plastic, glass, organic). By comparing model performance and confusion matrices, we aim to determine how computer vision can support real-world waste management pipelines. This work demonstrates the role of machine learning in promoting sustainability and reducing landfill impact.
+Electronic and household waste are growing environmental challenges that require smarter sorting and recycling systems. Our project explores how convolutional neural networks (CNNs) can classify different types of waste images to improve automated recycling efficiency. Samriddhi focuses on identifying ten types of **electronic waste** (e.g., TV, battery, circuit board), while Helena focuses on **general waste and recyclables** (e.g., plastic, glass, organic). By comparing model performance and confusion matrices, we aim to determine how computer vision can support real-world waste management pipelines. This work demonstrates the role of machine learning in promoting sustainability and reducing landfill impact.
 
 ---
 ## Project Outline
@@ -36,12 +39,16 @@ Electronic and household waste are growing environmental challenges that require
 
 ### Helena Thiessen
 - **Dataset:** *Waste Recycling Plant Dataset* (~3000 labeled images across 17 classes).
+- **Dataset:** *TACO Dataset* (~1500 labelled images across 60 classes).
 - Research datasets pertaining to recycling and select one of interest.
-- The sourced data is split into training and validation sets.
+- Decide between or combine TACO and WARP based on usability
+- The WARP data is split into training and validation sets.
+- The TACO data is not split
 - Some categories may need to be combined or removed to narrow down to the desired categories.
 - Data must be read into python and stored as tensors.
 - Labels must be read into python and properly processed.
 - Using pytorch data must then be normalized, and augmented to reduce overfitting.
+- Independently create a validation dataset
 
 ---
 
