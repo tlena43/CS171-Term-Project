@@ -15,10 +15,10 @@
 - **E-Waste Image Dataset** — [Kaggle: E-Waste Image Dataset](https://www.kaggle.com/datasets/akshat103/e-waste-image-dataset/data)  
   Used by *Samriddhi Matharu* for classifying 10 categories of electronic waste items.  
 
-- **DATASET NAME** — [Kaggle: Waste Recycling Plant Dataset](https://www.kaggle.com/datasets/parohod/warp-waste-recycling-plant-dataset/data)  
+- **WARP Dataset** — [Kaggle: Waste Recycling Plant Dataset](https://www.kaggle.com/datasets/parohod/warp-waste-recycling-plant-dataset/data)  
   Used by *Helena Thiessen* for classifying between different types of recyclables.
 
-- **DATASET NAME** — [Taco Dataset](http://tacodataset.org/)  
+- **TACO Dataset** — [Taco Dataset](http://tacodataset.org/)  
   Used by *Helena Thiessen* for classifying between different types of trash and recyclables. 
 
 ---
