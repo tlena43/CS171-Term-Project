@@ -32,10 +32,12 @@ Electronic and household waste are growing environmental challenges that require
 
 ### Samriddhi Matharu
 - **Dataset:** *E-Waste Image Dataset* (~3,000 labeled images across 10 classes, Apache 2.0 License).  
-- Data is pre-organized into `train/val/test` folders.  
+- Data is pre-organized into `train/val/test` folders from Kaggle.
+- Merged Kaggle’s validation split into the test set to form a larger and more reliable test dataset. 
 - Preprocessing steps include loading images using `ImageFolder`.  
 - Resize images, convert to tensors, and normalize pixel values.  
 - Apply light augmentation (flip, rotation) to increase variety and help prevent overfitting.
+- Created an independent, real-world validation folder (“val by hand”) with unseen images collected manually from the internet.
 
 ### Helena Thiessen
 - **Dataset:** *Waste Recycling Plant Dataset* (~3000 labeled images across 17 classes).
@@ -55,10 +57,14 @@ Electronic and household waste are growing environmental challenges that require
 ### Model Plans
 
 ### Samriddhi Matharu
-- Use a **Convolutional Neural Network (CNN)** to classify e-waste images into 10 categories.  
-- The model will include convolution, ReLU activation, and pooling layers to extract features, followed by fully connected layers for classification.  
+- Use a **Convolutional Neural Network (CNN)** to classify e-waste images into 10 categories.    
 - We plan to adjust the number of layers and filters to see how they affect performance.  
-- Evaluate results using accuracy and loss curves, and visualize model predictions with a confusion matrix.
+- Built a custom CNN with two convolutional blocks and dropout, trained for 30 epochs with augmentation.
+- Evaluated using accuracy, loss curves, confusion matrix, and per-class precision/recall/F1.
+- Implemented a pre-trained ResNet18 model, froze base layers, and fine-tuned the final layer for 10 classes.
+- Compared CNN vs. ResNet18 on: Kaggle test set and Custom real-world validation set
+- Analyzed generalization differences, where the CNN struggled on real-world images, while ResNet18 performed much better
+
 
 ### Helena Thiessen
 - Use a **Region Based Convolution Neural Network (R-CNN)** to detect the presence of recycling items of given classes.
