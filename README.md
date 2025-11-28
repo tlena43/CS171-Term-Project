@@ -66,8 +66,7 @@ Electronic and household waste are growing environmental challenges that require
 - Research R-CNN's in pytorch
 - Iplement a custom backbone
 - Use custom backbone with pytorch FasterRCNN object
-- Finetune backbone with varying arrangements of pooling layers, convolutional layers, linear layers, and dropout layers
-- Finetune model by trying different activation functions and gradient descent algorithms
+- Finetune backbone by trying different structures
 - Train model and assess results on test data
 
 ---
