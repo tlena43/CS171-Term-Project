@@ -21,7 +21,7 @@
 
 ---
 ## Description of Question and Research Topic
-Electronic and household waste are growing environmental challenges that require smarter sorting and recycling systems. Our project explores how convolutional neural networks (CNNs) can classify different types of waste images to improve automated recycling efficiency. Samriddhi focuses on identifying ten types of **electronic waste** (e.g., TV, battery, circuit board), while Helena focuses on **recyclables** (e.g., plastic, glass, organic). By comparing model performance and confusion matrices, we aim to determine how computer vision can support real-world waste management pipelines. This work demonstrates the role of machine learning in promoting sustainability and reducing landfill impact.
+Electronic and household waste are growing environmental challenges that require smarter sorting and recycling systems. Our project explores how convolutional neural networks (CNNs) can classify different types of waste images to improve automated recycling efficiency. Samriddhi focuses on identifying ten types of **electronic waste** (e.g., TV, battery, circuit board), while Helena focuses on **recyclables** (e.g., aluminum cans, glass bottles). By comparing model performance and confusion matrices, we aim to determine how computer vision can support real-world waste management pipelines. This work demonstrates the role of machine learning in promoting sustainability and reducing landfill impact.
 
 ---
 ## Project Outline
@@ -38,13 +38,13 @@ Electronic and household waste are growing environmental challenges that require
 - Created an independent, real-world validation folder (“val by hand”) with unseen images collected manually from the internet.
 
 ### Helena Thiessen
-- **Dataset:** *Waste Recycling Plant Dataset* (~3000 labeled images across 17 classes).
+- **Dataset:** *Drinking Waste Classification Dataset* (~4000 labeled images across 4 classes).
 - Research datasets pertaining to recycling and select one of interest.
-- The WARP data is split into training and validation sets.
-- Some categories may need to be combined or removed to narrow down to the desired categories.
+- Create a custom dataset object
 - Data must be read into python and stored as tensors.
 - Labels must be read into python and properly processed.
 - Using pytorch data must then be normalized, and augmented to reduce overfitting.
+- Split data into test and train sets.
 - Independently create a validation dataset
 
 ---

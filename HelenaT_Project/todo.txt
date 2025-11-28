@@ -1,0 +1,8 @@
+- clean fresh run on gpu
+- update readme
+- include install + run instructions
+- review rubrics
+- make presentation
+- requirements.txt
+- finishing touches on notebooks
+- set random seed, update analysis
