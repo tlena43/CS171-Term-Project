@@ -83,4 +83,23 @@ Electronic and household waste are growing environmental challenges that require
 - Week 17: Submit Project
 
 ---
+
+### How to Run
+
+### Helena Thiessen
+
+---
+
+### Further Works
+
+### Helena Thiessen
+Updates to the Drinking Waste RCNN should include:
+- Source new images that can be added to the dataset for more diverse training data
+- Annotate bounding boxes for new images
+- Split the dataset into distinct Train/Test/Validation folders to ensure a consistent split since the dataset may no longer be class proportional and images of all types are desired in all sets
+- Retrain the existing model on the more diverse dataset
+- Assess model results to determine next steps
+
+---
+
 Licensed under Apache 2.0 license
