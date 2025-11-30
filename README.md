@@ -87,6 +87,21 @@ Electronic and household waste are growing environmental challenges that require
 ### How to Run
 
 ### Helena Thiessen
+- Install git lfs
+    -  model.pt is over the size limit for normal file storage with git and is handled through git lfs
+- Clone git repository
+    - Note: folder and path structure must be maintained for the code to locate files
+- Install required libraries
+    - Use command `pip install -r requirements.txt` to install libraries in your environment
+    - Note that torch installs may vary between machines depending on CUDA availability
+    - Alternatively install only the packages you are missing by using command `pip install ~name~`
+- No special instructions are required for accessing data because it is all within the repository under `HelenaT_Project/Images_of_Waste`
+- Provided file structure is maintained from github repository all of my parts are ready to run
+- Open `HelenaT_Project` within `CS171-Term-Project`
+- `preprocess.ipynb` contains code relevant to preprocessing data
+- `R-CNN.ipynb` contains the code relevant to creating and training the model
+- To view analysis, open `03_analysis_visualization_ewaste` in `CS171-Term-Project`
+    - The analysis and visualization of my RCNN are under Section 2
 
 ---
 
