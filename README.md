@@ -24,6 +24,12 @@
 Electronic and household waste are growing environmental challenges that require smarter sorting and recycling systems. Our project explores how convolutional neural networks (CNNs) can classify different types of waste images to improve automated recycling efficiency. Samriddhi focuses on identifying ten types of **electronic waste** (e.g., TV, battery, circuit board), while Helena focuses on **recyclables** (e.g., aluminum cans, glass bottles). By comparing model performance and confusion matrices, we aim to determine how computer vision can support real-world waste management pipelines. This work demonstrates the role of machine learning in promoting sustainability and reducing landfill impact.
 
 ---
+
+## Research Question
+
+**How effectively can modern deep learning models classify different types of waste, and do these models generalize well enough to support real-world automated recycling systems?**
+---
+
 ## Project Outline
 
 ### Data Collection
@@ -118,7 +124,7 @@ Electronic and household waste are growing environmental challenges that require
 
 - **Download the dataset**  
   - The E-Waste dataset is **not stored in the repository** due to size limits.  
-  - Follow the instructions in `samriddhi/data/README_DATA.md` to download the Kaggle dataset and place it in the correct folders.
+  - Follow the instructions in `SamriddhiM_Project/data/README_DATA.md` to download the Kaggle dataset and place it in the correct folders.
 
 - **Notebook order**
   1. **`01_data_preprocessing_ewaste.ipynb`** — Loads and preprocesses dataset.  
