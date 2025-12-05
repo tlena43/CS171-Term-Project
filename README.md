@@ -7,8 +7,9 @@
 ## Presentation
 Our final project presentation can be viewed here:
 
-👉 **[View the Presentation Slides]([https://docs.google.com/presentation/d/1SaytfMzCnZ6yq7Ptjw1ku0B6XT7OS7QDqZTWZM_4ecc/edit?usp=sharing])**  
+👉 **[View the Presentation Slides]([YOUR_LINK_HERE](https://docs.google.com/presentation/d/1SaytfMzCnZ6yq7Ptjw1ku0B6XT7OS7QDqZTWZM_4ecc/edit?usp=sharing))**  
 
+---
 ## Authors
 - **Samriddhi Matharu** — E-Waste Image Classification  
 - **Helena Thiessen** — Recycling and Trash Image Classification
