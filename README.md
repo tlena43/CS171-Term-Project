@@ -29,9 +29,9 @@ Electronic and household waste are growing environmental challenges that require
 ### Data Collection
 
 ### Samriddhi Matharu
-- **Dataset:** *E-Waste Image Dataset* (~3,000 labeled images across 10 classes, Apache 2.0 License).  
+- **Dataset:** *E-Waste Image Dataset* (~3,000 labeled images across 10 classes: Battery, Mobile Phone, Mouse, PCB, Printer, Player, Television, Washing Machine, etc.) 
 - Data is pre-organized into `train/val/test` folders from Kaggle.
-- Merged Kaggle’s validation split into the test set to form a larger and more reliable test dataset. 
+- Merged Kaggle’s validation split into the test set to form a larger and more reliable test dataset.
 - Preprocessing steps include loading images using `ImageFolder`.  
 - Resize images, convert to tensors, and normalize pixel values.  
 - Apply light augmentation (flip, rotation) to increase variety and help prevent overfitting.
@@ -52,14 +52,13 @@ Electronic and household waste are growing environmental challenges that require
 ### Model Plans
 
 ### Samriddhi Matharu
-- Use a **Convolutional Neural Network (CNN)** to classify e-waste images into 10 categories.    
-- We plan to adjust the number of layers and filters to see how they affect performance.  
-- Built a custom CNN with two convolutional blocks and dropout, trained for 30 epochs with augmentation.
-- Evaluated using accuracy, loss curves, confusion matrix, and per-class precision/recall/F1.
-- Implemented a pre-trained ResNet18 model, froze base layers, and fine-tuned the final layer for 10 classes.
-- Compared CNN vs. ResNet18 on: Kaggle test set and Custom real-world validation set
-- Analyzed generalization differences, where the CNN struggled on real-world images, while ResNet18 performed much better
-
+-  Build and compare two models for 10-class e-waste classification.  
+- Implemented a **custom Convolutional Neural Network (CNN)** as a baseline model.  
+- Designed the CNN with multiple convolutional layers, dropout, and standard image augmentations.  
+- Used this model to establish a starting point for understanding the complexity of the dataset.
+- Implemented a **pretrained ResNet18** using ImageNet weights to explore transfer learning.  
+- Froze the backbone layers and fine-tuned the final layer for 10-class classification.  
+- Planned to compare the behavior of a model trained from scratch versus a pretrained model on both the Kaggle dataset and a small curated validation set done by hand on rougher images
 
 ### Helena Thiessen
 - Use a **Region Based Convolution Neural Network (R-CNN)** to detect the presence of recycling items of given classes.
@@ -102,6 +101,43 @@ Electronic and household waste are growing environmental challenges that require
 - `R-CNN.ipynb` contains the code relevant to creating and training the model
 - To view analysis, open `03_analysis_visualization_ewaste` in `CS171-Term-Project`
     - The analysis and visualization of my RCNN are under Section 2
+
+---
+
+### How to Run
+
+### Samriddhi Matharu
+
+- **Clone the GitHub repository**
+  - Make sure the folder and path structure remain unchanged so notebooks can locate files correctly.
+
+- **Install required libraries**
+  - Run: `pip install -r requirements.txt`
+  - PyTorch installation may vary depending on CUDA availability.
+  - If needed, install missing packages individually using: `pip install <package_name>`
+
+- **Download the dataset**  
+  - The E-Waste dataset is **not stored in the repository** due to size limits.  
+  - Follow the instructions in `samriddhi/data/README_DATA.md` to download the Kaggle dataset and place it in the correct folders.
+
+- **Notebook order**
+  1. **`01_data_preprocessing_ewaste.ipynb`** — Loads and preprocesses dataset.  
+  2. **`02_model_training_ewaste.ipynb`** — Trains the custom CNN and pretrained ResNet18 models.  
+  3. **`03_analysis_visualization_ewaste.ipynb`** — Runs metrics, confusion matrices, and analysis (Samriddhi's analysis is in Section 1).
+
+---
+
+### Further Works
+
+### Samriddhi Matharu
+Future updates and extensions to the E-Waste classification project could include:
+
+- Expanding the dataset with more diverse, real-world images to improve generalization.  
+- Adding stronger augmentations (color jitter, random crops, noise) during training.  
+- Exploring deeper architectures such as ResNet34, ResNet50, or EfficientNet.  
+- Re-train model completely on diverse data found by hand isntead of kaggle
+- Deploying a lightweight model to simulate real-time recycling or sorting operations.
+- Scale and make this an application 
 
 ---
 
